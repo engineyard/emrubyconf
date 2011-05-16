@@ -200,6 +200,12 @@ blockquote {
   font-size: 300%;
 }
 
+blockquote a,
+blockquote a:active,
+blockquote a:visited {
+  color: black;
+}
+
 h1 span,
 h2 span,
 h3 span,
