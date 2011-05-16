@@ -1,61 +1,93 @@
 <header>
   <hgroup>
-    <h1>EventMachine RubyConf</h1>
-    <h2>During RailsConf</h2>
-    <h3>In Baltimore, MD</h3>
-    <h4>On May 19, 2011</h4>
+    <h1><span>EventMachine RubyConf</span></h1>
+    <h2><span>During <a href="http://RailsConf.com">RailsConf</a></span></h2>
+    <h3><span>In Baltimore, MD</span></span></h3>
+    <h4><span>On <time>Thursday May 19, 2011</time></span></h4>
+    <h5><span>In <%= link_to "BohConf", "http://bohconf.com", :title => "BohConf | The Official Unconf of RailsConf" %></span></h5>
   </hgroup>
+
+  <section id="intro">
+    <blockquote>
+      <p>
+        <b>I don't know how this Event Machine business works.</b>
+        What is em-synchrony and sinatra-synchrony?
+        Or do I use threads?
+        Do I need to write my code differently?
+        Can I use Rails?
+        Seriously, why do I not even know any of this yet?
+     </p>
+
+      <p>I know, let's have <b>Event Machine Ruby Conf</b>!</p>
+    </blockquote>
+
+    <h6><span>Bring a friend. S/He knows nothing either.</span></h6>
+  </section>
 </header>
 
 <article>
   <section id="speakers">
-    <h1>Speakers</h1>
+    <h1><span>Speakers</span></h1>
 
     <p>
-      Talks are 15 minutes each and run from <time>12:30</time> to <time>3:00pm</time>
-    </p>
+      15 minute talks <i>from</i> <time>12:30</time> <i>to</i> <time>3:00pm</time>
+   </p>
 
     <ul>
-      <li>
-        <h2>Lessons in Concurrency: Threading vs Evented</h2>
-        <h3>?</h3>
+      <li id="unknown">
+        <h2><span>Lessons in Concurrency: Threading vs Evented</span></h2>
+        <h3><span>Interested? <%= mail_to "drnic+emrubyconf@engineyard.com", "Email Dr Nic" %></span></h3>
       </li>
-      <li>
-        <h2>JRuby Concurrency</h2>
-        <h3>Nick Seiger</h3>
+
+      <li id="nick-seiger">
+        <h2><span>JRuby Concurrency</span></h2>
+        <h3><span>Nick Seiger</span></h3>
+        <p><%= link_to "http://nicksieger.com", "http://nicksieger.com", :class => "url" %></p>
+        <p><%= link_to "@nicksieger", "http://twitter.com/nicksieger", :class => "url" %></p>
       </li>
-      <li>
-        <h2>Rubinius Concurrency</h2>
-        <h3>Brian Ford</h3>
+
+      <li id="brian-ford">
+        <h2><span>Rubinius Concurrency</span></h2>
+        <h3><span>Brian Ford</span></h3>
+        <p><%= link_to "http://brightredglow.com", "http://brightredglow.com", :rel => "external",:class => "url" %></p>
+        <p><%= link_to "@brixen", "http://twitter.com/brixen", :rel => "external", :class => "url" %></p>
       </li>
-      <li>
-        <h2>What are fibers? How to use them</h2>
-        <h3>Kirk Haines?</h3>
+
+      <li id="kirk-haines">
+        <h2><span>What are fibers? How to use them</span></h2>
+        <h3><span>Kirk Haines</span></h3>
+        <p><%= link_to "@wyhaines", "http://twitter.com/wyhaines", :rel => "external",:class => "url" %></p>
       </li>
-      <li>
-        <h2>Basics of EventMachine</h2>
-        <h3>Aman?</h3>
+
+      <li id="aman-gupta">
+        <h2><span>Basics of EventMachine</span></h2>
+        <h3><span>Aman Gupta</span></h3>
+        <p><%= link_to "http://github.com/tmm1", "http://github.com/tmm1", :rel => "external",:class => "url" %></p>
+        <p><%= link_to "@tmm1", "http://twitter.com/tmm1", :rel => "external",:class => "url" %></p>
       </li>
-      <li>
-        <h2>State of the Gems: What's EM aware and what's not?</h2>
-        <h3>?</h3>
+
+      <li id="unknown">
+        <h2><span>State of the Gems: What's EM aware and what's not?</span></h2>
+        <h3><span>Interested? <%= mail_to "drnic+emrubyconf@engineyard.com", "Email Dr Nic" %></span></h3>
       </li>
-      <li>
-        <h2>Using EventMachine in Rack, Sinatra and Rails</h2>
-        <h3>?</h3>
+
+      <li id="unknown">
+        <h2><span>Using EventMachine in Rack, Sinatra and Rails</span></h2>
+        <h3><span>Interested? <%= mail_to "drnic+emrubyconf@engineyard.com", "Email Dr Nic" %></span></h3>
       </li>
-      <li>
-        <h2>What is EM-Synchrony and Sinatra-Synchrony?</h2>
-        <h3>Kyle Drake?</h3>
+
+      <li id="kyle-drake">
+        <h2><span>What is EM-Synchrony and Sinatra-Synchrony?</span></h2>
+        <h3><span>Kyle Drake</span></h3>
+        <p><%= link_to "http://kyledrake.net", "http://kyledrake.net", :rel => "external",:class => "url" %></p>
+        <p><%= link_to "@kyledrake", "http://twitter.com/kyledrake", :rel => "external",:class => "url" %></p>
       </li>
-      <li>
-        <h2>Deploy EM Web Apps in Production</h2>
-        <h3>Ilya?</h3>
+
+      <li id="ilya-zhitomirskiy">
+        <h2><span>Deploy EM Web Apps in Production</span></h2>
+        <h3><span>Ilya Zhitomirskiy</span></h3>
+        <p><%= link_to "@zhitomirskiyi", "http://twitter.com/zhitomirskiyi", :rel => "external",:class => "url" %></p>
       </li>
     </ul>
   </section>
 </article>
-
-<footer>
-
-</footer>
